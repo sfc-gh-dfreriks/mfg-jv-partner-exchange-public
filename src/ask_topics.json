@@ -1,0 +1,39 @@
+{
+  "askCortexPage": {
+    "topic": "general",
+    "suggestions": [
+      "What does each joint-venture partner owe us, and how much is overdue?",
+      "What are partners disputing, and which reasons cost us the most?",
+      "Which partner is the biggest collection risk, and why?",
+      "Which AFEs are over budget, and what do partners owe on the true-up?",
+      "What would we lose by reading SAP from BDC instead of S/4HANA JVA tables?",
+      "How would sharing JIB data with partners replace the PDF statements?"
+    ]
+  },
+  "pages": {
+    "overview": {"topic": "overview", "suggestions": [
+      "What does each JV partner owe us, what is overdue and what is disputed?",
+      "How have billing and partner cash receipts trended over 24 months?"]},
+    "ventures": {"topic": "ventures", "suggestions": [
+      "Which ventures carry the most gross cost, and how is it split with partners?",
+      "Where is lease operating expense highest?"]},
+    "jib": {"topic": "jib", "suggestions": [
+      "Which partners pay JIB statements late, and by how many days?",
+      "Which overdue statements should we chase first?"]},
+    "cash-calls": {"topic": "cash_calls", "suggestions": [
+      "Which partners are behind on cash calls?",
+      "How much capital is overdue from partners?"]},
+    "afes": {"topic": "afes", "suggestions": [
+      "Which AFEs overran their budget the most?",
+      "Where did partners non-consent, and what does the operator now carry?"]},
+    "disputes": {"topic": "disputes", "suggestions": [
+      "What are partners disputing most, and how often do we credit them?",
+      "Which audit exceptions are still open and how much is claimed?"]},
+    "sharing": {"topic": "sharing", "suggestions": [
+      "What would each partner see if we shared JIB data instead of sending PDFs?",
+      "Which partners would benefit most from live statements?"]},
+    "data-sources": {"topic": "sources", "suggestions": [
+      "Which JV objects are missing when SAP is read from BDC or BW?",
+      "Which source feeds each canonical object?"]}
+  }
+}
