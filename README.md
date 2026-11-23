@@ -1,6 +1,6 @@
 # JV Partner Data Exchange — public demo
 
-A static, no-login build of the **JV Partner Data Exchange** app (Oil, Gas & Energy use case 15 in
+A static, no-login build of the **JV Partner Data Exchange** app (Oil, Gas & Energy use case 34 in
 [`mfg-use-cases`](https://github.com/sfc-gh-dfreriks/mfg-use-cases)), deployed to GitHub Pages:
 
 **https://sfc-gh-dfreriks.github.io/mfg-jv-partner-exchange-public/**
@@ -42,8 +42,8 @@ Partner Sharing · Data Sources · Field Mapping · SAP Metadata · Sources & Li
 For live queries, source switching and free-text Ask Cortex, deploy from the source repo:
 ```bash
 git clone https://github.com/sfc-gh-dfreriks/mfg-use-cases
-cd mfg-use-cases/use_cases/15_jv_partner_exchange
+cd mfg-use-cases/use_cases/34_jv_partner_exchange
 tools/build_local.sh
 cd app && npm install && npm run dev  # http://localhost:5198 (API on 3023)
 ```
-See [use_cases/15_jv_partner_exchange/README.md](https://github.com/sfc-gh-dfreriks/mfg-use-cases/blob/main/use_cases/15_jv_partner_exchange/README.md) for full setup instructions.
+See [use_cases/34_jv_partner_exchange/README.md](https://github.com/sfc-gh-dfreriks/mfg-use-cases/blob/main/use_cases/34_jv_partner_exchange/README.md) for full setup instructions.
